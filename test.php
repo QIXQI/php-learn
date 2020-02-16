@@ -39,4 +39,11 @@ for ($i=0; $i<10; $i++){
 }
 echo '</p>';
 
+echo '<p>';
+echo '--------------str_ireplace测试------------' .'<br />';
+$arr = array("blue","red","green","yellow");
+print_r(str_ireplace("RED","pink",$arr,$imm)); // 此函数对大小写不敏感
+echo "替换数：$imm";
+echo '</p>';
+
 ?>
